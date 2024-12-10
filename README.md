@@ -1,3 +1,27 @@
+# Search Results Extraction Code Challenge
+
+## Installation
+
+Run `bundle install`.
+
+## Running
+
+The `lib/extract.rb` file executes each of the fixtures individually and prints them as JSON directly to STDOUT.
+
+```
+ruby lib/extract.rb files/detroit-pistons-players.html    
+ruby lib/extract.rb files/cities-in-michigan.html
+ruby lib/extract.rb files/van-gogh-paintings.html
+```
+
+## Tests
+
+Standard RSpec tests, run with `bundle exec rspec`. These run against all 3 the `.html` files from this PR.
+
+The original README file follows:
+
+-----------------
+
 # Extract Van Gogh Paintings Code Challenge
 
 Goal is to extract a list of Van Gogh paintings from the attached Google search results page.
